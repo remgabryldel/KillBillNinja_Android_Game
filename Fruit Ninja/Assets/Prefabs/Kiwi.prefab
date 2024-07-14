@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7832210504944811769, guid: b1968d50348ea484fae8d98f68c5b11f, type: 3}
+      propertyPath: points
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 321599871156155752, guid: b1968d50348ea484fae8d98f68c5b11f, type: 3}
       propertyPath: m_Name
       value: Kiwi
@@ -44,6 +48,18 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 3c9e44d37b5c94e8a935066f191c98b8, type: 2}
+    - target: {fileID: 5013567763800371462, guid: b1968d50348ea484fae8d98f68c5b11f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5013567763800371462, guid: b1968d50348ea484fae8d98f68c5b11f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5013567763800371462, guid: b1968d50348ea484fae8d98f68c5b11f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 5013567763800371462, guid: b1968d50348ea484fae8d98f68c5b11f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

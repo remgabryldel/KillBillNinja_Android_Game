@@ -9,6 +9,8 @@ public class Frutto : MonoBehaviour
    private Collider fruttoCollider;
    private ParticleSystem juiceEffect;
 
+   public int points = 1;
+
    private void Awake()
     {
         fruttoRigidbody = GetComponent<Rigidbody>();
@@ -18,7 +20,7 @@ public class Frutto : MonoBehaviour
 
     private void Slice(Vector3 direzione, Vector3 posizione, float forza)
     {
-        //GameManager.Instance.IncreaseScore(points);
+        FindObjectOfType<GameManager>().IncreaseScore(points);
 
         whole.SetActive(false);
         sliced.SetActive(true);
