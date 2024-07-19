@@ -6,18 +6,34 @@ public class GameManager : MonoBehaviour
 {
     public Text scoreText;
     public Image fadeImage;
+    public Text playerNameText;
 
     private Blade blade;
     private Spawner spawner;
 
     private int score;
+    private string playerName;
+
+    [SerializeField] public IndirectionLogin indirectionLogin;
 
     private void Awake()
     {
         blade = FindObjectOfType<Blade>();
         spawner = FindObjectOfType<Spawner>();
+        playerName = getPlayerName();
     }
 
+    private string getPlayerName(){
+        string name = "";
+        if(indirectionLogin==null){
+            indirectionLogin = FindObjectOfType<IndirectionLogin>();
+        }
+        if(indirectionLogin!=null){
+            name = indirectionLogin.getPlayerName();
+            Destroy(indirectionLogin.gameObject);
+        }
+        return name;
+    }
 
     private void NewGame(){
         Time.timeScale = 1f;
@@ -27,6 +43,7 @@ public class GameManager : MonoBehaviour
 
         score = 0;
         scoreText.text = score.ToString();
+        playerNameText.text = playerName;
 
         ClearScene();
 

@@ -10,5 +10,9 @@ public class IndirectionLogin : MonoBehaviour
     {
         DontDestroyOnLoad(gameObject);
     }
+
+    public string getPlayerName(){
+        return playerName;
+    }
 }
 

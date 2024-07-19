@@ -206,7 +206,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1205056465}
+      - m_Target: {fileID: 1205056467}
         m_TargetAssemblyTypeName: LoginPagePlayfab, Assembly-CSharp
         m_MethodName: LoginUser
         m_Mode: 1
@@ -593,7 +593,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1205056465}
+      - m_Target: {fileID: 1205056467}
         m_TargetAssemblyTypeName: LoginPagePlayfab, Assembly-CSharp
         m_MethodName: OpenLoginPage
         m_Mode: 1
@@ -1035,7 +1035,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1205056465}
+      - m_Target: {fileID: 1205056467}
         m_TargetAssemblyTypeName: LoginPagePlayfab, Assembly-CSharp
         m_MethodName: OpenLoginPage
         m_Mode: 1
@@ -1168,7 +1168,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1205056465}
+      - m_Target: {fileID: 1205056467}
         m_TargetAssemblyTypeName: LoginPagePlayfab, Assembly-CSharp
         m_MethodName: OpenRegisterPage
         m_Mode: 1
@@ -2470,7 +2470,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1205056465}
+      - m_Target: {fileID: 1205056467}
         m_TargetAssemblyTypeName: LoginPagePlayfab, Assembly-CSharp
         m_MethodName: RecoverUser
         m_Mode: 1
@@ -4033,20 +4033,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 712fbe641a4fc4d06b98ef727dc38802, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TopText: {fileID: 1850957711}
-  MessageText: {fileID: 453858178}
-  EmailLoginInput: {fileID: 1152679252}
-  PasswordLoginInput: {fileID: 2027304522}
-  LoginPage: {fileID: 416627291}
-  UsernameRegisterInput: {fileID: 487173736}
-  EmailRegisterInput: {fileID: 198866256}
-  PasswordRegisterInput: {fileID: 2117011254}
-  RegisterPage: {fileID: 154162194}
-  EmailRecoveryInput: {fileID: 1000558607}
-  RecoveryPage: {fileID: 1535468996}
-  WelcomeObject: {fileID: 640235323}
-  WelcomeText: {fileID: 2056570080}
-  indirectionLogin: {fileID: 1488663265}
 --- !u!4 &1205056466
 Transform:
   m_ObjectHideFlags: 0
@@ -5416,7 +5402,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1205056465}
+      - m_Target: {fileID: 1205056467}
         m_TargetAssemblyTypeName: LoginPagePlayfab, Assembly-CSharp
         m_MethodName: RegisterUser
         m_Mode: 1
@@ -5511,7 +5497,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a934c6546a54d56a4e57d983800aee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerName: 
 --- !u!114 &1488663266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5859,7 +5844,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1205056465}
+      - m_Target: {fileID: 1205056467}
         m_TargetAssemblyTypeName: LoginPagePlayfab, Assembly-CSharp
         m_MethodName: OpenRecoveryPage
         m_Mode: 1
