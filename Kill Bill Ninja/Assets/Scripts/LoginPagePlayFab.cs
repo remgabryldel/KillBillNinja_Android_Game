@@ -49,15 +49,20 @@ public class LoginPagePlayfab : MonoBehaviour
 
     public void RegisterUser(){
         //controlli sulla password
-        var request = new RegisterPlayFabUserRequest{
-            DisplayName = UsernameRegisterInput.text,
-            Email = EmailRegisterInput.text,
-            Password = PasswordRegisterInput.text,
+        if(PasswordRegisterInput.text.Length >5){
+            var request = new RegisterPlayFabUserRequest{
+                DisplayName = UsernameRegisterInput.text,
+                Email = EmailRegisterInput.text,
+                Password = PasswordRegisterInput.text,
 
-            RequireBothUsernameAndEmail = true //ricorda nel caso di errori di metter true
-        };
+                RequireBothUsernameAndEmail = false 
+            };
 
-        PlayFabClientAPI.RegisterPlayFabUser(request, OnregisterSucces, OnError);
+            PlayFabClientAPI.RegisterPlayFabUser(request, OnregisterSucces, OnError);
+        }else{
+            MessageText.text = "Password must be at least 6 characters";
+        }
+
 
     }
 
