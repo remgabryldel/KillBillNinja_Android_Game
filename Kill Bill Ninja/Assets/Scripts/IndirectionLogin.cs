@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class IndirectionLogin : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    [SerializeField] public string playerName;
+    
     void Update()
     {
-        
+        DontDestroyOnLoad(gameObject);
     }
 }
+

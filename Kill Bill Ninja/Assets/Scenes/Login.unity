@@ -4013,6 +4013,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1205056466}
   - component: {fileID: 1205056465}
+  - component: {fileID: 1205056467}
   m_Layer: 0
   m_Name: LoginSystem
   m_TagString: Untagged
@@ -4061,6 +4062,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1205056467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205056464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77e17a40e9ced48529e0f092021245fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TopText: {fileID: 1850957711}
+  MessageText: {fileID: 453858178}
+  EmailLoginInput: {fileID: 1152679252}
+  PasswordLoginInput: {fileID: 2027304522}
+  LoginPage: {fileID: 416627291}
+  UsernameRegisterInput: {fileID: 487173736}
+  EmailRegisterInput: {fileID: 198866256}
+  PasswordRegisterInput: {fileID: 2117011254}
+  RegisterPage: {fileID: 154162194}
+  EmailRecoveryInput: {fileID: 1000558607}
+  RecoveryPage: {fileID: 1535468996}
+  WelcomeObject: {fileID: 640235323}
+  WelcomeText: {fileID: 2056570080}
+  indirectionLogin: {fileID: 1488663266}
 --- !u!1 &1224358746
 GameObject:
   m_ObjectHideFlags: 0
@@ -5449,6 +5476,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1488663264}
   - component: {fileID: 1488663265}
+  - component: {fileID: 1488663266}
   m_Layer: 0
   m_Name: IndirectionLogin
   m_TagString: Untagged
@@ -5481,6 +5509,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0a934c6546a54d56a4e57d983800aee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerName: 
+--- !u!114 &1488663266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488663263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1be69227ff0046d6a7a0fc331dd02d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerName: 
