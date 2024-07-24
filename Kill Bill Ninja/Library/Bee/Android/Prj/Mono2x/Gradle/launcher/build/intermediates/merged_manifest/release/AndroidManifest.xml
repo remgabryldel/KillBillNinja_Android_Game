@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.Remigiusz_RomaTre.NinjaBill"
+    package="com.Remigiusz_RomaTre.KillBillNinja"
     android:installLocation="preferExternal"
     android:versionCode="1"
     android:versionName="0.1" >

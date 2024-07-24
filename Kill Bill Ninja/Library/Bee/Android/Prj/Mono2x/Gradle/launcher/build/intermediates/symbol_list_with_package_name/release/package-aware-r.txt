@@ -1,4 +1,4 @@
-com.Remigiusz_RomaTre.NinjaBill
+com.Remigiusz_RomaTre.KillBillNinja
 color staticSplashScreenBackgroundColor
 id unitySurfaceView
 mipmap app_icon

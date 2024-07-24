@@ -9,7 +9,7 @@ INJECTED from /Users/alberto/Desktop/Git/Videogioco-Remigiusz/Kill Bill Ninja/Li
 INJECTED from /Users/alberto/Desktop/Git/Videogioco-Remigiusz/Kill Bill Ninja/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:2:1-5:12
 INJECTED from /Users/alberto/Desktop/Git/Videogioco-Remigiusz/Kill Bill Ninja/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:2:1-5:12
 	package
-		ADDED from /Users/alberto/Desktop/Git/Videogioco-Remigiusz/Kill Bill Ninja/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:2:70-111
+		ADDED from /Users/alberto/Desktop/Git/Videogioco-Remigiusz/Kill Bill Ninja/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:2:70-115
 		INJECTED from /Users/alberto/Desktop/Git/Videogioco-Remigiusz/Kill Bill Ninja/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml
 		INJECTED from /Users/alberto/Desktop/Git/Videogioco-Remigiusz/Kill Bill Ninja/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml
 	android:versionName
@@ -17,7 +17,7 @@ INJECTED from /Users/alberto/Desktop/Git/Videogioco-Remigiusz/Kill Bill Ninja/Li
 		ADDED from /Users/alberto/Desktop/Git/Videogioco-Remigiusz/Kill Bill Ninja/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:2:1-5:12
 		INJECTED from /Users/alberto/Desktop/Git/Videogioco-Remigiusz/Kill Bill Ninja/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/alberto/Desktop/Git/Videogioco-Remigiusz/Kill Bill Ninja/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:2:112-158
+		ADDED from /Users/alberto/Desktop/Git/Videogioco-Remigiusz/Kill Bill Ninja/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:2:116-162
 	android:versionCode
 		INJECTED from /Users/alberto/Desktop/Git/Videogioco-Remigiusz/Kill Bill Ninja/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml
 		ADDED from /Users/alberto/Desktop/Git/Videogioco-Remigiusz/Kill Bill Ninja/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:2:1-5:12
@@ -25,7 +25,7 @@ INJECTED from /Users/alberto/Desktop/Git/Videogioco-Remigiusz/Kill Bill Ninja/Li
 	xmlns:android
 		ADDED from /Users/alberto/Desktop/Git/Videogioco-Remigiusz/Kill Bill Ninja/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:2:11-69
 	android:installLocation
-		ADDED from /Users/alberto/Desktop/Git/Videogioco-Remigiusz/Kill Bill Ninja/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:2:159-199
+		ADDED from /Users/alberto/Desktop/Git/Videogioco-Remigiusz/Kill Bill Ninja/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:2:163-203
 application
 ADDED from /Users/alberto/Desktop/Git/Videogioco-Remigiusz/Kill Bill Ninja/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:3-83
 MERGED from [:unityLibrary] /Users/alberto/Desktop/Git/Videogioco-Remigiusz/Kill Bill Ninja/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:5-68:19
