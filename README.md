@@ -1,4 +1,4 @@
-Un gioco creato in Unity per sostenere l'esame del corso Mobile Computing.
-Il gioco mobile si ispira alla saga di Kill Bill, il cui obiettivo è colpire gli oggetti che ci compaiono nella schermata di gioco, imbracciando la katana della protagonista.
-Tramite i propri riflessi e precisione bisogna colpire gli oggetti cumulando più punti possibili ad ogni partita.
-Più piccolo è l'oggetto, maggiore sarà il punteggio che viene sommato, facendo attenzione a non colpire la bomba altrimenti si tornerà al punteggio iniziale generando una nuova partita.
+A game created in Unity to support the Mobile Computing course exam.
+The mobile game is inspired by the Kill Bill saga, whose objective is to hit the objects that appear on the game screen, wielding the protagonist's katana.
+Using your reflexes and precision, you must hit the objects, accumulating as many points as possible in each game.
+The smaller the object, the higher the score that is added, being careful not to hit the bomb otherwise you will return to the initial score, generating a new game.
